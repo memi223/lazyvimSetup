@@ -1,9 +1,7 @@
 # Make a backup of your current Neovim files:
 
-_required
 Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
 
-_optional but recommended
 Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
 
 
