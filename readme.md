@@ -1,15 +1,15 @@
-_Make a backup of your current Neovim files:
+#Make a backup of your current Neovim files:
 
-# required
+_required
 Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
 
-# optional but recommended
+_optional but recommended
 Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
 
 
 
 
-_Clone the starter then delete .git
+#Clone the starter then delete .git
 
 git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim
 
