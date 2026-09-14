@@ -1,5 +1,5 @@
-##a guide to lazyvimSetup on Window
-###Requirements
+## A guide to lazyvimSetup on Window
+### Requirements
 1. Neovim >= 0.11.2 
 ```
 winget install Neovim.Neovim
