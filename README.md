@@ -32,3 +32,11 @@ add UCRT64 to PATH
 ```
 setx /M PATH "%PATH%;C:\msys64\ucrt64\bin"
 ```
+### Installation [see LazyVim site](https://www.lazyvim.org/installation)
+
+Make a backup of your current Neovim files:
+```
+move "%LOCALAPPDATA%\nvim" "%LOCALAPPDATA%\nvim.bak"
+move "%LOCALAPPDATA%\nvim-data" "%LOCALAPPDATA%\nvim-data.bak"
+```
+git clone https://github.com/LazyVim/starter "%LOCALAPPDATA%\nvim"
